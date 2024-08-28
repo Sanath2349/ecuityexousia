@@ -1,0 +1,51 @@
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .about-us h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+  }
+  
+  .about-us h2 {
+    color: #3498db;
+    margin-top: 2rem;
+  }
+  
+  .about-us p {
+    margin-bottom: 1rem;
+  }
+  
+  .our-story, .our-vision, .our-technology {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .head {
+    font-family: Roboto;
+   
+
+  }
+
+
+  .our-story, .our-vision, .our-technology  p {
+        font-family: space grotesk;
+  }
+  @media (max-width: 600px) {
+    .about-us {
+      padding: 1rem;
+    }
+  }
+
+
+

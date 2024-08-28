@@ -21,6 +21,7 @@ const Homepage = () => {
           <img src={heroimg} alt="herobg" />
         </div>
       </div>
+<<<<<<< HEAD
       <div className="linesection">
         <div className="line"></div>
       </div>
@@ -41,6 +42,15 @@ const Homepage = () => {
             needs of our clients.
           </p>
         </div>
+=======
+      <div className="homeheroDescription">
+        Exousia Software Services is a dynamic and innovative software company
+        dedicated to delivering cutting-edge solutions tailored to meet the
+        diverse needs of businesses across industries. Our team of experts
+        leverages their extensive experience to provide fast and
+        reliablereal-time data solutions that offer a competitive edge to our
+        clients.
+>>>>>>> 67743218b6fcabecd765321016151f101488a393
       </div>
     </div>
   );
