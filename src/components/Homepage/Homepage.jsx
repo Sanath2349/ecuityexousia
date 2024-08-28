@@ -12,7 +12,7 @@ const Homepage = () => {
         dedicated to delivering cutting-edge solutions tailored to meet the
         diverse needs of businesses across industries. Our team of experts
         leverages their extensive experience to provide fast and
-        reliable real-time data solutions that offer a competitive edge to our
+        reliablereal-time data solutions that offer a competitive edge to our
         clients.
       </div>
     </div>
