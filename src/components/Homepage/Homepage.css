@@ -1,5 +1,6 @@
 .homeContainer {
   /* background-color: red; */
+  font-family: "Roboto", "sans-serif";
   color: #f1f1f1;
   min-height: 100vh;
   display: flex;
@@ -7,9 +8,55 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  position: relative;
 }
 
+.herosection {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 2rem;
+}
+
+.heroimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  /* filter: blur(2px); */
+}
+
+.heroimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroimg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* 
 .homeContainer::before {
   content: "";
   position: absolute;
@@ -20,24 +67,22 @@
   background-image: url(../../assests/shubham-dhage-v0VjjYYFjOg-unsplash.jpg);
   background-size: cover;
   background-position: center;
-  filter: blur(3px);
+  filter: blur(2px);
   z-index: -1;
-}
+} */
 
 .homeHeroHeading {
   font-size: 2rem;
-  margin: 20px;
-  position: relative;
-  z-index: 1;
+  margin-bottom: 1rem;
   animation: fadeIn 1.5s ease-out;
 }
 
 .homeheroDescription {
-  padding: 0 25%;
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
+  line-height: 1.6;
   font-size: 1.5rem;
-  position: relative;
-  z-index: 1;
   animation: slideUp 1s ease-out;
 }
 
@@ -61,4 +106,30 @@
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+.line{
+  width: 25px;
+  height: 3px;
+  background-color: #f1f1f1;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+
+/* vision container */
+
+.visionContainer {
+  background-color: black;
+  color: #f1f1f1;
+  height: 100vh;
+  font-family: "Space Grotesk", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.visionHeading{
+  font-size: 1rem;
+  font-weight: 500;
 }
