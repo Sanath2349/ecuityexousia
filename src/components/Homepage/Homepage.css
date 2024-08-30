@@ -637,14 +637,14 @@ body {
     width: auto;
   }
   .visionContent p {
-    font-size: 15px;
-    width: 60%;
+    font-size: 18px;
+    width: 70%;
     text-align: center;
   }
 
   .visionContent img {
-    width: 90%;
-    height: 300px;
+    width: 70%;
+    height: 280px;
     /* margin-top: 60px;
     margin-left: 25px; */
   }
