@@ -8,6 +8,7 @@ import product3img from "../../assests/stakeholder.png";
 import { motion } from "framer-motion";
 import service1img from "../../assests/layer.png";
 import Contactus from "../common/Contactus/Contactus";
+import Footer from "../common/Footer/Footer";
 
 const Homepage = () => {
   return (
@@ -44,7 +45,7 @@ const Homepage = () => {
         </div>
 
         <div className="visionDescription">
-          <p> We’re Here to Revolutionize the World of tech</p>
+          <p> We're Here to Revolutionize the World of tech</p>
         </div>
         <div className="visionContent">
           <p>
@@ -85,7 +86,7 @@ const Homepage = () => {
             <h3 className="productname">Key Performance Indicator(KPI)</h3>
             <p className="productdescription">
               Key performance indicators (KPIs) refer to a set of quantifiable
-              measurements used to gauge a company’s overall long-term
+              measurements used to gauge a company's overall long-term
               performance. KPIs specifically help determine a company's
               strategic, financial, and operational achievements, especially
               compared to those of other businesses within the same sector.
@@ -167,6 +168,10 @@ const Homepage = () => {
         </div>
       </div>
       <Contactus/>
+      <div className="linesection">
+        <div className="line"></div>
+      </div>
+      <Footer/>
     </div>
   );
 };

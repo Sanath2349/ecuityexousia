@@ -66,12 +66,13 @@ const Navbar = () => {
           transition={{ duration: 0.1 }}
           whileHover={{ scale: 1.2 }}
           onClick={handleContactus}
+          className="demoBtn"
         >
           Contact us
         </motion.li>
-        <li>
+        {/* <li>
           <button className="demoBtn">Get demo</button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
