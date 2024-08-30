@@ -633,7 +633,7 @@ body {
   .visionContainer {
     display: flex;
 
-    height: 800px;
+    /* height: 800px; */
     width: auto;
   }
   .visionContent p {
