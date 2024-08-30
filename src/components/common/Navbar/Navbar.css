@@ -1,5 +1,5 @@
 nav {
-  background-color: #f1f1f1;
+  background-color: black;
   font-family: Roboto;
   font-weight: 400;
   width: 100%;
@@ -11,10 +11,13 @@ nav {
   padding: 5px 5%;
   color: #f1f1f1;
   z-index: 1000;
+  position: sticky;
+  top: 0;
 }
 
 nav .navlogo {
-  width: 150px;
+  width: 250px;
+  height: 100PX;
 }
 
 .navlinks {
@@ -24,7 +27,7 @@ nav .navlogo {
 }
 
 .navlinks li {
-  color: black;
+  color: #f1f1f1;
 
   list-style: none;
   margin: 0 8px;
