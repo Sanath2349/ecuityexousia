@@ -28,7 +28,7 @@ const Homepage = () => {
           dedicated to delivering cutting-edge solutions tailored to meet the
           diverse needs of businesses across industries. Our team of experts
           leverages their extensive experience to provide fast and
-          reliable real-time data solutions that offer a competitive edge to our
+          reliable real-time data solutions that offer a competitive edge to our
           clients.
         </motion.div>
         <div className="heroimg">
@@ -48,7 +48,7 @@ const Homepage = () => {
           <p> We're Here to Revolutionize the World of tech</p>
         </div>
         <div className="visionContent">
-          <p>
+          <p >
             At Ecuity Exousia Software Services, our vision is to be the go-to
             software provider for businesses across industries. We strive to
             provide innovative solutions that are tailored to meet the diverse
