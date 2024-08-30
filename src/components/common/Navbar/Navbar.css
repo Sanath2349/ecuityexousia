@@ -17,7 +17,7 @@ nav {
 
 nav .navlogo {
   width: 250px;
-  height: 100PX;
+  height: 120px;
 }
 
 .navlinks {
@@ -61,7 +61,13 @@ nav .navlogo {
   left: -100%;
   width: 200%;
   height: 100%;
-  background-color: white;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    #3498db 25%,
+    #8e44ad 75%,
+    transparent 100%
+  );
   transition: left 0.5s ease;
   z-index: -1;
 }
@@ -85,7 +91,7 @@ nav .navlogo {
 .bar {
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color: #f1f1f1;
   margin: 3px 0;
   transition: 0.4s;
 }
@@ -94,8 +100,8 @@ nav .navlogo {
   .menu-icon {
     display: flex;
   }
-  
-  .nav.open .navlogo{
+
+  .nav.open .navlogo {
     display: none;
   }
 
@@ -115,7 +121,7 @@ nav .navlogo {
     margin: 10px 0;
   }
 
-  .menu-icon.open{
+  .menu-icon.open {
     position: absolute;
     top: 5%;
     right: 8%;

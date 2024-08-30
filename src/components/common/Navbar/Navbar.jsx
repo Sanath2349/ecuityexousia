@@ -66,7 +66,6 @@ const Navbar = () => {
           transition={{ duration: 0.1 }}
           whileHover={{ scale: 1.2 }}
           onClick={handleContactus}
-          className="demoBtn"
         >
           <button className="demoBtn">Contact us</button>
         </motion.li>

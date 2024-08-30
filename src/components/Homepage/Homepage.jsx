@@ -8,7 +8,6 @@ import product3img from "../../assests/stakeholder.png";
 import { motion } from "framer-motion";
 import service1img from "../../assests/layer.png";
 import Contactus from "../common/Contactus/Contactus";
-import Footer from "../common/Footer/Footer";
 
 const Homepage = () => {
   return (
@@ -171,7 +170,6 @@ const Homepage = () => {
       <div className="linesection">
         <div className="line"></div>
       </div>
-      <Footer/>
     </div>
   );
 };
