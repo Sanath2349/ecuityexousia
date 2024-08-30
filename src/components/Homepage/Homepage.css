@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
   background-color: black;
@@ -295,24 +294,23 @@ body {
   padding: 10px;
 }
 
-.services img{
+.services img {
   width: 50px;
   height: 50px;
 }
 
-.servicecontent{
+.servicecontent {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.servicesname{
+.servicesname {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-
-.contactUs{
+.contactUs {
   width: 100%;
   margin: 0;
   /* background-color: #f1f1f1; */
@@ -320,14 +318,14 @@ body {
   font-family: "Space Grotesk", sans-serif;
 }
 
-.contactUsHeading p{
+.contactUsHeading p {
   padding-left: 150px;
   font-size: 2.5rem;
   font-weight: 600;
   margin: 35px 0;
 }
 
-.contactform{
+.contactform {
   display: flex;
   flex-direction: column;
   /* justify-content: flex-start; */
@@ -336,29 +334,29 @@ body {
   padding: 30px 0;
 }
 
-.contactform div{
+.contactform div {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-.contactform label{
+.contactform label {
   font-size: 16px;
 }
-.contactform input{
+.contactform input {
   width: 500px;
   height: 50px;
   border: none;
   border-radius: 10px;
 }
 
-.contactform textarea{
+.contactform textarea {
   width: 500px;
   height: 50px;
   border: none;
   border-radius: 10px;
 }
 
-.contactform button{
+.contactform button {
   width: 100px;
   height: 50px;
   border: 1px solid white;
@@ -433,8 +431,8 @@ body {
   text-decoration: underline;
 }
 
-.add li{
-  font-family: "Roboto" ;
+.add li {
+  font-family: "Roboto";
 }
 
 @media (min-width: 768px) {
@@ -457,7 +455,7 @@ body {
     padding: 10px;
   }
 
-  .herosection {
+  /* .herosection {
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -470,44 +468,46 @@ body {
     overflow: hidden;
     margin: 0;
 
-  }
+  } */
 
   .homeHeroHeading h1 {
-    
+    font-family: "Space Grotesk", sans-serif;
     font-size: 40px;
+    /* margin-bottom: 150px; */
+    text-align: center;
   }
 
   .homeheroDescription {
     max-width: 400px;
-    margin: 0 auto;
+    margin-bottom: 250px;
     text-align: center;
-    line-height: 1;
-    font-size: 1rem;
-    
+    line-height: 1.2;
+    font-size: 1.1rem;
+    padding: 0 30px;
+    font-family: "Space Grotesk", sans-serif;
   }
 
-  .heroimg  {
+  .heroimg {
     position: absolute;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: 80%;
-  z-index: -1;
-  filter: blur(2px);
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 80%;
+    z-index: -1;
+    filter: blur(2px);
   }
 
-  .heroimg img{
+  .heroimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
- 
+
   .visionContainer {
     padding: 10px;
   }
-  .visionDescription p{
+  .visionDescription p {
     font-size: 30px;
-    
   }
   .visionHeading p {
     font-size: 20px;
@@ -529,11 +529,11 @@ body {
     margin-top: 10px;
   } */
   .productheading p {
-  padding-left: 70px;
-  font-size: 2.3rem;
-  font-weight: 600;
-  margin: 35px 0;
-}
+    padding-left: 70px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 35px 0;
+  }
 
   .productslist {
     flex-direction: column;
@@ -548,13 +548,12 @@ body {
     width: 40%;
     height: 100px;
   }
- .servicesheading p{
-  padding-left: 70px;
-  font-size: 2.3rem;
-  font-weight: 600;
-  margin: 35px 0;
-      
- }
+  .servicesheading p {
+    padding-left: 70px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 35px 0;
+  }
   .serviceslist {
     flex-direction: column;
     padding: 10px;
@@ -577,25 +576,24 @@ body {
     font-size: 14px;
   }
 
- 
-  .contactform label{
+  .contactform label {
     font-size: 16px;
   }
-  .contactform input{
+  .contactform input {
     width: 300px;
     height: 50px;
     border: none;
     border-radius: 10px;
   }
-  
-  .contactform textarea{
+
+  .contactform textarea {
     width: 300px;
     height: 50px;
     border: none;
     border-radius: 10px;
   }
-  
-  .contactform button{
+
+  .contactform button {
     width: 100px;
     height: 50px;
     border: 1px solid white;
@@ -604,7 +602,7 @@ body {
     color: #f1f1f1;
   }
 
-  .contactUsHeading p{
+  .contactUsHeading p {
     padding-left: 85px;
     font-size: 2.3rem;
     font-weight: 600;
@@ -613,21 +611,19 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-
-  .visionContainer{
+  .visionContainer {
     display: flex;
-  
+
     height: 800px;
-    width:auto;
+    width: auto;
   }
   .visionContent p {
     font-size: 10px;
-  display: none;
+    display: none;
     width: 60%;
     text-align: center;
   }
 
- 
   .visionContent img {
     width: 90%;
     height: 300px;
