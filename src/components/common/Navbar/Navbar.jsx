@@ -67,11 +67,8 @@ const Navbar = () => {
           whileHover={{ scale: 1.2 }}
           onClick={handleContactus}
         >
-          Contact us
+          <button className="demoBtn">Contact us</button>
         </motion.li>
-        <li>
-          <button className="demoBtn">Get demo</button>
-        </li>
       </ul>
     </nav>
   );
