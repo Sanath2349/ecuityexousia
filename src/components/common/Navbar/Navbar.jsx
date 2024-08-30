@@ -14,10 +14,13 @@ const Navbar = () => {
 
   const handleHome = () => {
     navigate("/");
+    toggleMenu();
   };
 
   const handleAbout = () => {
-    navigate("/about"); // Navigate to the About page
+    navigate("/about");
+    toggleMenu();
+    // Navigate to the About page
   };
 
   const handleServices = () => {
@@ -25,7 +28,9 @@ const Navbar = () => {
   };
 
   const handleContactus = () => {
-    navigate("/contactus"); // Navigate to the About page
+    navigate("/contactus");
+
+    toggleMenu(); // Navigate to the About page
   };
 
   return (
