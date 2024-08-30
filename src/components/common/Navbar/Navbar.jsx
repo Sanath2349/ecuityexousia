@@ -68,11 +68,8 @@ const Navbar = () => {
           onClick={handleContactus}
           className="demoBtn"
         >
-          Contact us
+          <button className="demoBtn">Contact us</button>
         </motion.li>
-        {/* <li>
-          <button className="demoBtn">Get demo</button>
-        </li> */}
       </ul>
     </nav>
   );
