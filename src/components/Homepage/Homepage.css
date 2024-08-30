@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 .homeContainer {
   /* background-color: red; */
   font-family: "Roboto", "sans-serif";
@@ -38,7 +41,7 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  /* filter: blur(2px); */
+  filter: blur(2px);
 }
 
 .heroimg img {
@@ -74,7 +77,7 @@
 .homeHeroHeading {
   font-size: 2rem;
   margin-bottom: 1rem;
-  animation: fadeIn 1.5s ease-out;
+  animation: fadeIn 2s ease-out;
 }
 
 .homeheroDescription {
@@ -108,28 +111,255 @@
   }
 }
 
-.line{
-  width: 25px;
-  height: 3px;
+.line {
+  width: 80%;
+  padding: 0 10%;
+  height: 2px;
   background-color: #f1f1f1;
-  margin: 3px 0;
+  margin: 0;
   transition: 0.4s;
+  opacity: 0.5;
 }
 
+.linesection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding-top: 2%;
+}
 
 /* vision container */
 
 .visionContainer {
   background-color: black;
   color: #f1f1f1;
-  height: 100vh;
+  /* height: 100vh; */
   font-family: "Space Grotesk", sans-serif;
   display: flex;
   flex-direction: column;
   padding-top: 50px;
+  width: 80%;
 }
 
-.visionHeading{
-  font-size: 1rem;
-  font-weight: 500;
+.visionHeading {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 35px 0;
+  letter-spacing: 2px;
+}
+
+.visionDescription {
+  font-size: 5rem;
+  font-weight: 300;
+  padding-bottom: 40px;
+  animation: fadeUp 2s ease-in;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateX(-190px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.visionContent {
+  display: flex;
+  align-items: end;
+  gap: 5rem;
+  padding: 40px 0;
+  justify-content: space-between;
+  animation: slideUp 2s ease-out;
+}
+
+.visionContent img {
+  width: 500px;
+  border-radius: 10%;
+}
+
+.visionContent p {
+  font-size: 1.3rem;
+  max-width: 500px;
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 1.3;
+  margin: 40px 0;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(190px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* product display section */
+.productcontainer {
+  width: 100%;
+  margin: 0;
+  background-color: #f1f1f1;
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.linesectionproduct {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f1f1f1;
+  padding-top: 2%;
+}
+
+.lineproduct {
+  width: 80%;
+  padding: 0 10%;
+  height: 2px;
+  background-color: black;
+  margin: 0;
+  transition: 0.4s;
+  opacity: 0.5;
+}
+.productheading p {
+  padding-left: 150px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 35px 0;
+  /* letter-spacing: 1px; */
+  /* font-family: "Space Grotesk", sans-serif; */
+}
+
+.productslist {
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.productcontent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.productcontent img {
+  width: 200px;
+}
+
+.productname {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* services */
+
+.servicescontainer {
+  width: 100%;
+  margin: 0;
+  background-color: #f1f1f1;
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.servicesheading p {
+  padding-left: 150px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 35px 0;
+}
+
+.serviceslist {
+  padding: 50px;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.services {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.services img{
+  width: 50px;
+  height: 50px;
+}
+
+.servicecontent{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.servicesname{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+.contactUs{
+  width: 100%;
+  margin: 0;
+  /* background-color: #f1f1f1; */
+  color: #f1f1f1;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.contactUsHeading p{
+  padding-left: 150px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 35px 0;
+}
+
+.contactform{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: center;
+  gap: 2rem;
+  padding: 30px 0;
+}
+
+.contactform div{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.contactform label{
+  font-size: 16px;
+}
+.contactform input{
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}
+
+.contactform textarea{
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}
+
+.contactform button{
+  width: 100px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: black;
+  color: #f1f1f1;
 }

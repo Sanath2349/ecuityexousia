@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Correct hook import
 import "./Navbar.css";
 import logo from "../../../assests/exousia logo.webp";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,10 +12,14 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleHome = () => {
+    navigate("/");
+  };
+
   const handleAbout = () => {
     navigate("/about"); // Navigate to the About page
   };
- 
+
   const handleServices = () => {
     navigate("/services"); // Navigate to the About page
   };
@@ -35,10 +40,35 @@ const Navbar = () => {
         <div className="bar"></div>
       </div>
       <ul className={`navlinks ${isMenuOpen ? "open" : ""}`}>
-        <li>Home</li>
-        <li onClick={handleAbout}>About</li> {/* Updated click handler */}
-        <li onClick={handleServices} >Services</li>
-        <li onClick={handleContactus}>Contact us</li>
+        <motion.li
+          transition={{ duration: 0.1 }}
+          whileHover={{ scale: 1.2 }}
+          onClick={handleHome}
+        >
+          Home
+        </motion.li>
+        <motion.li
+          transition={{ duration: 0.1 }}
+          whileHover={{ scale: 1.2 }}
+          onClick={handleAbout}
+        >
+          About
+        </motion.li>{" "}
+        {/* Updated click handler */}
+        <motion.li
+          transition={{ duration: 0.1 }}
+          whileHover={{ scale: 1.2 }}
+          onClick={handleServices}
+        >
+          Services
+        </motion.li>
+        <motion.li
+          transition={{ duration: 0.1 }}
+          whileHover={{ scale: 1.2 }}
+          onClick={handleContactus}
+        >
+          Contact us
+        </motion.li>
         <li>
           <button className="demoBtn">Get demo</button>
         </li>
