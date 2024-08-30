@@ -450,3 +450,188 @@ body {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+/* General styles for mobile */
+@media (max-width: 768px) {
+  .homeContainer {
+    padding: 10px;
+  }
+
+  .herosection {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+
+  }
+
+  .homeHeroHeading h1 {
+    
+    font-size: 40px;
+  }
+
+  .homeheroDescription {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1;
+    font-size: 1rem;
+    
+  }
+
+  .heroimg  {
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 80%;
+  z-index: -1;
+  filter: blur(2px);
+  }
+
+  .heroimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+  .visionContainer {
+    padding: 10px;
+  }
+  .visionDescription p{
+    font-size: 30px;
+    
+  }
+  .visionHeading p {
+    font-size: 20px;
+  }
+  /* .visionContent{
+
+ 
+   
+  }
+  .visionContent p {
+    font-size: 14px;
+    line-height: 1.4;
+    width: 100%;
+    text-align: center;
+  }
+
+  .visionContent img {
+    width: 90%;
+    margin-top: 10px;
+  } */
+  .productheading p {
+  padding-left: 70px;
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin: 35px 0;
+}
+
+  .productslist {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .productcontent {
+    margin-bottom: 20px;
+  }
+
+  .productcontent img {
+    width: 40%;
+    height: 100px;
+  }
+ .servicesheading p{
+  padding-left: 70px;
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin: 35px 0;
+      
+ }
+  .serviceslist {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .services {
+    margin-bottom: 20px;
+  }
+
+  .servicesimg {
+    width: 100%;
+    height: auto;
+  }
+
+  .servicecontent h3 {
+    font-size: 18px;
+  }
+
+  .servicecontent p {
+    font-size: 14px;
+  }
+
+ 
+  .contactform label{
+    font-size: 16px;
+  }
+  .contactform input{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .contactform textarea{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .contactform button{
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: #f1f1f1;
+  }
+
+  .contactUsHeading p{
+    padding-left: 85px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 35px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .visionContainer{
+    display: flex;
+  
+    height: 800px;
+    width:auto;
+  }
+  .visionContent p {
+    font-size: 10px;
+  display: none;
+    width: 60%;
+    text-align: center;
+  }
+
+ 
+  .visionContent img {
+    width: 90%;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 25px;
+  }
+}
