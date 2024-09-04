@@ -79,7 +79,7 @@ body {
 .homeHeroHeading {
   font-size: 2rem;
   margin-bottom: 1rem;
-  animation: fadeIn 2s ease-out;
+  /* animation: fadeIn 2s ease-out; */
 }
 
 .homeheroDescription {
@@ -88,7 +88,7 @@ body {
   text-align: center;
   line-height: 1.6;
   font-size: 1.5rem;
-  animation: slideUp 1s ease-out;
+  /* animation: slideUp 1s ease-out; */
 }
 
 @keyframes fadeIn {
@@ -155,7 +155,7 @@ body {
   font-size: 5rem;
   font-weight: 300;
   padding-bottom: 40px;
-  animation: fadeUp 2s ease-in;
+  /* animation: fadeUp 2s ease-in; */
 }
 
 @keyframes fadeUp {
@@ -175,7 +175,7 @@ body {
   gap: 5rem;
   padding: 40px 0;
   justify-content: space-between;
-  animation: slideUp 2s ease-out;
+  /* animation: slideUp 2s ease-out; */
 }
 
 .visionContent img {

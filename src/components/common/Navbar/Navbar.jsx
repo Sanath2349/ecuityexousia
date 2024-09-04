@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Correct hook import
 import "./Navbar.css";
-import logo from "../../../assests/logo.png";
+import logo from "../../../assests/logo.jpg";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
