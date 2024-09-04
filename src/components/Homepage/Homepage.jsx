@@ -6,7 +6,9 @@ import product1img from "../../assests/resource-allocation.png";
 import product2img from "../../assests/tracking.png";
 import product3img from "../../assests/stakeholder.png";
 import { motion } from "framer-motion";
-import service1img from "../../assests/layer.png";
+import service1img from "../../assests/ui.png";
+import service2img from "../../assests/app-development.png";
+import service3img from "../../assests/software-developer.png";
 import Contactus from "../common/Contactus/Contactus";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
@@ -21,66 +23,66 @@ const Homepage = () => {
 
   useGSAP(() => {
     const boxes = gsap.utils.toArray(scrollRef.current.children);
-    gsap.from(".homeHeroHeading h1",{
+    gsap.from(".homeHeroHeading h1", {
       // y:80,
-      duration:1,
-      delay:0.5,
-      opacity:0,
-      scale:0.7,
-      scrollTrigger:{
-        trigger:".homeHeroHeading",
-        scroll:"body"
-      }
-    })
-    gsap.from(".homeheroDescription",{
-      y:80,
-      duration:1,
-      delay:0.5,
-      opacity:0,
-      scrollTrigger:{
-        trigger:".homeheroDescription",
-        scroll:"body"
-      }
+      duration: 1,
+      delay: 0.5,
+      opacity: 0,
+      scale: 0.7,
+      scrollTrigger: {
+        trigger: ".homeHeroHeading",
+        scroll: "body",
+      },
+    });
+    gsap.from(".homeheroDescription", {
+      y: 80,
+      duration: 1,
+      delay: 0.5,
+      opacity: 0,
+      scrollTrigger: {
+        trigger: ".homeheroDescription",
+        scroll: "body",
+      },
       // scale:0.7
-    })
-    gsap.from(".linesection",{
-      width:0,
-      duration:1,
-      delay:1,
-      opacity:0,
-      scrollTrigger:{
-        trigger:".linesection",
-        start:"top 80%",
-        end:"top 30%",
-        scrub:true,
+    });
+    gsap.from(".linesection", {
+      width: 0,
+      duration: 1,
+      delay: 1,
+      opacity: 0,
+      scrollTrigger: {
+        trigger: ".linesection",
+        start: "top 80%",
+        end: "top 30%",
+        scrub: true,
         // markers:true
-      }
+      },
       // scale:0.7
-    })
+    });
 
-    gsap.from(".visionDescription",{
-      rotationX:180,
-      opacity:0,
-      x:-50,
-      y:50,
-      duration:1,
-      delay:0.5,
-      scrollTrigger:{
-        trigger:".visionDescription",
-        scroller:"body",
-        start:"top 70%",
+    gsap.from(".visionDescription", {
+      rotationX: 180,
+      opacity: 0,
+      x: -50,
+      y: 50,
+      duration: 1,
+      delay: 0.5,
+      scrollTrigger: {
+        trigger: ".visionDescription",
+        scroller: "body",
+        start: "top 70%",
         // markers:true
-      }
-    })
+      },
+    });
 
     boxes.forEach((box) => {
       gsap.from(box, {
         // x: -50 * (boxes.indexOf(box) + 5),
         y: 50 * (boxes.indexOf(box) + 5),
-        rotation:360,
+        rotation: 360,
         scale: 0.5,
         opacity: 0,
-        duration:1,
+        duration: 1,
         scrollTrigger: {
           trigger: box,
           start: "top-=280 bottom",
@@ -99,8 +101,8 @@ const Homepage = () => {
         // rotation:90,
         scale: 0.7,
         opacity: 0,
-        stagger:1,
-        duration:1,
+        stagger: 1,
+        duration: 1,
         scrollTrigger: {
           trigger: box,
           start: "top-=220 bottom",
@@ -113,16 +115,12 @@ const Homepage = () => {
   });
   return (
     <div className="homeContainer">
-      <Slider/>
+      <Slider />
       <div className="herosection">
         <div className="homeHeroHeading">
-          <h1>
-            Ecuity Exousia Software Services
-          </h1>
+          <h1>Ecuity Exousia Software Services</h1>
         </div>
-        <div
-          className="homeheroDescription"
-        >
+        <div className="homeheroDescription">
           Exousia Software Services is a dynamic and innovative software company
           dedicated to delivering cutting-edge solutions tailored to meet the
           diverse needs of businesses across industries. Our team of experts
@@ -225,7 +223,7 @@ const Homepage = () => {
             </div>
           </div>
           <div className="services">
-            <img src={service1img} alt="servicesimg" className="servicesimg" />
+            <img src={service2img} alt="servicesimg" className="servicesimg" />
             <div className="servicecontent">
               <h3 className="servicesname">SOFTWARE DEVELOPMENT</h3>
               <p className="servicesdescription">
@@ -238,16 +236,15 @@ const Homepage = () => {
             </div>
           </div>
           <div className="services">
-            <img src={service1img} alt="servicesimg" className="servicesimg" />
+            <img src={service3img} alt="servicesimg" className="servicesimg" />
             <div className="servicecontent">
-              <h3 className="servicesname">INTERNET OF THINGS</h3>
+              <h3 className="servicesname">TESTING SERVICES</h3>
               <p className="servicesdescription">
-                The Internet of Things (IoT) is the inter-networking of physical
-                devices, vehicles (also referred to as "connected devices" and
-                "smart devices"), buildings, and other items embedded with
-                electronics, software, sensors, actuators, and network
-                connectivity which enable these objects to collect and exchange
-                data
+                Our team of software application quality assurance experts and
+                testers provides software testing as an independent service.
+                Software testing is an essential part of our delivery process.
+                We identify all the flaws, bugs and errors and debug them to
+                deliver robust applications to our clients.
               </p>
             </div>
           </div>

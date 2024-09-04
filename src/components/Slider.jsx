@@ -133,6 +133,7 @@ const Slider = () => {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
               porro.
             </p>
+            <button>More</button>
           </div>
         </section>
         <section

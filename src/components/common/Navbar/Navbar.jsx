@@ -70,6 +70,13 @@ const Navbar = () => {
         <motion.li
           transition={{ duration: 0.1 }}
           whileHover={{ scale: 1.2 }}
+          onClick={handleServices}
+        >
+          Careers
+        </motion.li>
+        <motion.li
+          transition={{ duration: 0.1 }}
+          whileHover={{ scale: 1.2 }}
           onClick={handleContactus}
         >
           <button className="demoBtn">Contact us</button>
