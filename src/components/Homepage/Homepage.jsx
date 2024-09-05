@@ -75,6 +75,21 @@ const Homepage = () => {
       },
     });
 
+    gsap.from(".visionimg", {
+      rotationY: 180,
+      opacity: 0,
+      x: -150,
+      y: 50,
+      duration: 1,
+      delay: 0.5,
+      scrollTrigger: {
+        trigger: ".visionimg",
+        scroller: "body",
+        start: "top 70%",
+        // markers:true
+      },
+    });
+
     boxes.forEach((box) => {
       gsap.from(box, {
         // x: -50 * (boxes.indexOf(box) + 5),
@@ -155,6 +170,7 @@ const Homepage = () => {
             whileHover={{ scale: 1.1 }}
             src={visionimg}
             alt="visionimg"
+            className="visionimg"
           />
         </div>
       </div>
@@ -200,7 +216,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <div className="servicescontainer">
+      <div className="servicescontainer" id="services">
         <div className="linesectionproduct">
           <div className="lineproduct"></div>
         </div>
@@ -249,6 +265,8 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+        <button type="button">Click for More</button>
+
       </div>
       <Contactus />
       <div className="linesection">

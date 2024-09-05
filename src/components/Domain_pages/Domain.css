@@ -1,0 +1,31 @@
+.web{
+    /* background-color: red; */
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 100px;
+    gap: 20px;
+}
+
+.web ol{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.web p{
+    max-width: 80%;
+    font-size: 1.2rem;
+}
+
+.heading{
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.headingWord{
+    background-color: rgb(40, 40, 243);
+    width: fit-content;
+    padding: 10px;
+}

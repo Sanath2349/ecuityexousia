@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
+import { Link } from "react-router-dom";
 import "./Slider.css";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
@@ -35,7 +36,7 @@ const Slider = () => {
       y: 50,
       duration: 1.5,
       delay: 1,
-      stagger:1,
+      stagger: 1,
       scrollTrigger: {
         trigger: ".content",
         scroller: "body",
@@ -57,36 +58,35 @@ const Slider = () => {
     });
 
     gsap.from(sectionRefs.current, {
-        opacity:0,
-        delay:0.1,
-        duration: 1.5, // 1 second transition time
-        ease: "power2.inOut",
-      });
+      opacity: 0,
+      delay: 0.1,
+      duration: 1.5, // 1 second transition time
+      ease: "power2.inOut",
+    });
 
     gsap.from(".content h3", {
-        opacity: 0,
-        y: 50,
-        duration: 1.5,
-        delay: 0.5,
-        scrollTrigger: {
-          trigger: ".content",
-          scroller: "body",
+      opacity: 0,
+      y: 50,
+      duration: 1.5,
+      delay: 0.5,
+      scrollTrigger: {
+        trigger: ".content",
+        scroller: "body",
         //   start: "top 50%",
-        },
-      });
+      },
+    });
 
-
-      gsap.from(".content p", {
-        opacity: 0,
-        x: -50,
-        duration: 1,
-        delay: 1,
-        scrollTrigger: {
-          trigger: ".content",
-          scroller: "body",
+    gsap.from(".content p", {
+      opacity: 0,
+      x: -50,
+      duration: 1,
+      delay: 1,
+      scrollTrigger: {
+        trigger: ".content",
+        scroller: "body",
         //   start: "top 50%",
-        },
-      });
+      },
+    });
     // animateContent();
   };
 
@@ -130,10 +130,15 @@ const Slider = () => {
           <div className="content">
             <h3>Web Development</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
-              porro.
+              Our web development services are designed to help businesses
+              establish a strong online presence, engage their audience, and
+              achieve their goals.
             </p>
-            <button>More</button>
+            <Link to="/webdevelopment">
+              <button type="button" className="WebDomainbtn">
+                More
+              </button>
+            </Link>
           </div>
         </section>
         <section
@@ -151,6 +156,11 @@ const Slider = () => {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
               porro.
             </p>
+            <Link to="/mobileappdevelopment">
+              <button type="button" className="WebDomainbtn">
+                More
+              </button>
+            </Link>
           </div>
         </section>
         <section
@@ -168,6 +178,11 @@ const Slider = () => {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
               porro.
             </p>
+            <Link to="/devops">
+              <button type="button" className="WebDomainbtn">
+                More
+              </button>
+            </Link>
           </div>
         </section>
         <section
@@ -180,12 +195,38 @@ const Slider = () => {
           }}
         >
           <div className="content">
-            <h3>
-            DATA ANALYTICS</h3>
+            <h3>PYTHON</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
               porro.
             </p>
+            <Link to="/python">
+              <button type="button" className="WebDomainbtn">
+                More
+              </button>
+            </Link>
+          </div>
+        </section>
+        <section
+          ref={addToRefs}
+          className="section5"
+          style={{
+            minWidth: "100vw",
+            height: "100vh",
+            // backgroundColor: "#3357FF",
+          }}
+        >
+          <div className="content">
+            <h3>JAVA</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
+              porro.
+            </p>
+            <Link to="/java">
+              <button type="button" className="WebDomainbtn">
+                More
+              </button>
+            </Link>
           </div>
         </section>
         <section
@@ -203,6 +244,11 @@ const Slider = () => {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
               porro.
             </p>
+            <Link to="/testing">
+              <button type="button" className="WebDomainbtn">
+                More
+              </button>
+            </Link>
           </div>
         </section>
       </div>

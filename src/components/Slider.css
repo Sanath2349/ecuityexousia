@@ -21,7 +21,8 @@
   background-size: cover;
 }
 .section1 .content{
-  background: none;
+  background-color: #7a757554;
+  
 }
 .content {
   color: #fefae0;
@@ -37,6 +38,7 @@
 
 .content p{
     font-size: 20px;
+    font-weight: 500;
 }
 .section2 {
   background-image: url(../assests/sliderimgs/slider2.jpg);
@@ -71,6 +73,21 @@
   cursor: pointer;
   z-index: 10;
   user-select: none;
+}
+
+.WebDomainbtn{
+  padding: 10px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.WebDomainbtn:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: 0.5s;
 }
 
 .left-button {

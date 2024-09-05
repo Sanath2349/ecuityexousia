@@ -41,9 +41,14 @@ const Contactus = () => {
         },
         (error) => {
           console.log("FAILED...", error.text);
-          toast.error("Failed to send message. Please try again.");
+          toast.error(
+            "currently we are having server issue we will get back to you soon"
+          );
         }
-      );
+      )
+      .catch((error) => {
+        console.error("Failed...", error);
+      });
   };
   return (
     <div className="contactUs">
