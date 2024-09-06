@@ -23,7 +23,7 @@ const Services = () => {
         scrollTrigger: {
           trigger: box,
           scroller: "body",
-          markers: true,
+          // markers: true,
           start: "top 80%",
           end: "top 60%",
         },

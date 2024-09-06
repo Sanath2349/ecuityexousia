@@ -41,17 +41,12 @@
     font-weight: 500;
 }
 .section2 {
-  background-image: url(../assests/sliderimgs/slider2.jpg);
+  background-image: url(../assests/sliderimgs/backend.jpg);
   background-position: center;
   background-size: cover;
 }
 .section3 {
   background-image: url(../assests/sliderimgs/slider3.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.section4 {
-  background-image: url(../assests/sliderimgs/slider4.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -81,6 +76,7 @@
   cursor: pointer;
   font-size: 1.2rem;
   border: none;
+  color: black;
 }
 
 .WebDomainbtn:hover{
@@ -96,4 +92,31 @@
 
 .right-button {
   right: 10px;
+}
+
+
+@media (max-width:768px) {
+  .content{
+    width:60%
+  }
+
+  .content h3{
+    font-size: 30px;
+    width: 100%;
+  }
+  .content p{
+    /* font-size: 15px; */
+    display: none;
+  }
+
+
+  .nav-button{
+    width: 10px;
+    background-color: transparent;
+    padding: 5px;
+  }
+  .WebDomainbtn{
+    width: 100px;
+    padding: 10px;
+  }
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../Homepage/Homepage.css'
+import logo from "../../../assests/ECUITYEXOUSIAL LOGO LANDSCAPE black .png"
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
       <div className="footer-logo">
         <div className="footer-logo-container">
           {/* <Camera size={24} /> */}
-          <span className="footer-logo-text"> Ecuity Exousia </span>
+          <img src={logo} alt="" />
         </div>
       </div>
       

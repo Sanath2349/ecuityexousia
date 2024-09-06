@@ -14,12 +14,18 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useGSAP } from "@gsap/react";
 import Slider from "../Slider";
+import { useNavigate } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Homepage = () => {
   const scrollRef = useRef();
   const productRef = useRef();
+  const navigate = useNavigate();
+
+  const handlenavigate = ()=>{
+    navigate("/services")
+  }
 
   useGSAP(() => {
     const boxes = gsap.utils.toArray(scrollRef.current.children);
@@ -81,7 +87,6 @@ const Homepage = () => {
       x: -150,
       y: 50,
       duration: 1,
-      delay: 0.5,
       scrollTrigger: {
         trigger: ".visionimg",
         scroller: "body",
@@ -265,7 +270,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <button type="button">Click for More</button>
+        <button type="button" onClick={handlenavigate}className="servicesNavBtn">Click for More</button>
 
       </div>
       <Contactus />

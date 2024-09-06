@@ -108,7 +108,7 @@ const Slider = () => {
       opacity: 0,
       y: 50,
       duration: 1.5,
-      delay: 1,
+      delay: 0.2,
     });
   });
 
@@ -151,7 +151,7 @@ const Slider = () => {
           }}
         >
           <div className="content">
-            <h3>Mobile App Development</h3>
+            <h3>Backend Development</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
               porro.
@@ -179,50 +179,6 @@ const Slider = () => {
               porro.
             </p>
             <Link to="/devops">
-              <button type="button" className="WebDomainbtn">
-                More
-              </button>
-            </Link>
-          </div>
-        </section>
-        <section
-          ref={addToRefs}
-          className="section4"
-          style={{
-            minWidth: "100vw",
-            height: "100vh",
-            // backgroundColor: "#33FF57",
-          }}
-        >
-          <div className="content">
-            <h3>PYTHON</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
-              porro.
-            </p>
-            <Link to="/python">
-              <button type="button" className="WebDomainbtn">
-                More
-              </button>
-            </Link>
-          </div>
-        </section>
-        <section
-          ref={addToRefs}
-          className="section5"
-          style={{
-            minWidth: "100vw",
-            height: "100vh",
-            // backgroundColor: "#3357FF",
-          }}
-        >
-          <div className="content">
-            <h3>JAVA</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
-              porro.
-            </p>
-            <Link to="/java">
               <button type="button" className="WebDomainbtn">
                 More
               </button>

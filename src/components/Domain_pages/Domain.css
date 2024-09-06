@@ -29,3 +29,23 @@
     width: fit-content;
     padding: 10px;
 }
+
+@media (max-width:768px) {
+    .heading{
+        font-size: 1.3rem;
+    }
+    .web{
+        padding: 20px;
+    }
+    .web h3{
+        font-size: 20px;
+        width: 100%;
+    }
+    .web p{
+        font-size: 13px;
+    }
+    .web ol{
+        padding: 0 30px;
+        font-size: 13px;
+    }
+}
