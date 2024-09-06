@@ -61,6 +61,7 @@ const Homepage = () => {
         start: "top 80%",
         end: "top 30%",
         scrub: true,
+        scroll: "body",
         // markers:true
       },
       // scale:0.7
@@ -86,6 +87,8 @@ const Homepage = () => {
       opacity: 0,
       x: -150,
       y: 50,
+      duration: 2,
+      delay: 0.2,
       duration: 1,
       scrollTrigger: {
         trigger: ".visionimg",

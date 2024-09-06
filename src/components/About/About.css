@@ -1,51 +1,167 @@
 .about-us {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
+  width: 100%;
+  /* margin: 0 auto; */
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.about-us h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.about-us h2 {
+  color: #3498db;
+  margin-top: 2rem;
+}
+
+.about-us p {
+  margin-bottom: 1rem;
+
+}
+
+.our-story, .our-vision, .our-technology {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+  font-family: "Roboto", "sans-serif";
+  color: black;
+}
+
+.our-story p, .our-vision p, .our-technology p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 30px;
+}
+
+.herosection img {
+  height: 40%;
+  width: 100%;
+  position: relative;
+  filter: blur(2px);
+}
+
+.herosection p {
+  position: absolute;
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 60px;
+  left: 5%;
+  top: 3%;
+  max-width: 600px;
+  background-color: #f0ebeb9f;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.storyline {
+  font-family: "Space Grotesk", sans-serif;
+  display: flex;
+  font-size: 40px;
+  color: black;
+}
+
+.line {
+  background-color: black;
+}
+
+.story {
+  display: flex;
+  gap: 8rem;
+}
+
+.story img {
+  border-radius: 5px;
+}
+
+.story p {
+  max-width: 600px;
+  font-size: 20px;
+}
+
+.vision {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 16rem;
+}
+
+.vision img {
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.vision p {
+  max-width: 600px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .about-us {
+    padding: 1rem;
+  }
+
+
+
+  .herosection{
+    background-color: #081c29;
+    height: 50vh;
+    /* width: 100%; */
+    display: none;
+  }
+
+  .herosection img {
+    /* height: 40%; */
+    /* width: 100%; */
+    margin-top: 0px;
+    background-position: center;
+    filter: blur(1px);
+
   }
   
-  .about-us h1 {
-    text-align: center;
-    color: #2c3e50;
-    margin-bottom: 2rem;
-  }
-  
-  .about-us h2 {
-    color: #3498db;
-    margin-top: 2rem;
-  }
-  
-  .about-us p {
-    margin-bottom: 1rem;
-  }
-  
-  .our-story, .our-vision, .our-technology {
-    background-color: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 5px;
-    margin-bottom: 2rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  .herosection p {
     
-  }
-  
-  .head {
-    font-family: Roboto;
-   
-
-  }
-
-
-  .our-story, .our-vision, .our-technology  p {
-        font-family: space grotesk;
-  }
-  @media (max-width: 600px) {
-    .about-us {
-      padding: 1rem;
-    }
+    color: black;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    left: 5%;
+    top: 35%;
+    max-width: 300px;
+    background-color: #f0ebeb9f;
+    padding: 10px;
+    border-radius: 5px;
   }
 
+  .storyline {
+    font-size: 30px;
+  }
 
+  .story, .vision {
+    flex-direction: column;
+    gap: 2rem;
+  }
 
+  .story img, .vision img {
+    width: 100%;
+    height: auto;
+  }
+
+  .story p, .vision p {
+    max-width: 100%;
+  }
+
+  .vision {
+    gap: 2rem;
+  }
+
+  .vision img {
+    margin-left: 0;
+  }
+}

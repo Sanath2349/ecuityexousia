@@ -37,6 +37,11 @@ const Navbar = () => {
     setIsMenuOpen(false)
   }
 
+  const handleCareers =()=>{
+    navigate("/careers")
+    setIsMenuOpen(false)
+  }
+
   const handleContactus = () => {
     navigate("/contactus");
     setIsMenuOpen(false)
@@ -82,7 +87,7 @@ const Navbar = () => {
         <motion.li
           transition={{ duration: 0.1 }}
           whileHover={{ scale: 1.5 }}
-          onClick={handleServices}
+          onClick={handleCareers}
         >
           Careers
         </motion.li>

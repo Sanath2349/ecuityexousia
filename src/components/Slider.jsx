@@ -10,7 +10,7 @@ const Slider = () => {
   const sectionRefs = useRef([]);
   sectionRefs.current = [];
   const [currentIndex, setCurrentIndex] = useState(0);
-  const slideDuration = 5000; // 3 seconds interval
+  const slideDuration = 2000; // 3 seconds interval
 
   // Function to add section elements to refs
   const addToRefs = (el) => {

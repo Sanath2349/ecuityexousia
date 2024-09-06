@@ -14,6 +14,7 @@ import Java from "./components/Domain_pages/Java";
 import Testing from './components/Domain_pages/Testing'
 import Services from "./components/Services/Services";
 import Gallery from "./components/Gallery/Gallery";
+import Career from "./components/Careers/Career";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/testing" element={<Testing />} />
             <Route path="/services" element={<Services />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/careers" element={<Career />} />
           </Routes>
         </Layout>
         <ToastContainer
