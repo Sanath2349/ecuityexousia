@@ -73,7 +73,7 @@ const Homepage = () => {
       x: -50,
       y: 50,
       duration: 1,
-      delay: 0.5,
+      delay: 0.2,
       scrollTrigger: {
         trigger: ".visionDescription",
         scroller: "body",
@@ -139,7 +139,7 @@ const Homepage = () => {
   return (
     <div className="homeContainer">
       <Slider />
-      <div className="herosection">
+      <div className="herosectionHome">
         <div className="homeHeroHeading">
           <h1>Ecuity Exousia Software Services</h1>
         </div>

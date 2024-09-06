@@ -10,7 +10,7 @@ const Slider = () => {
   const sectionRefs = useRef([]);
   sectionRefs.current = [];
   const [currentIndex, setCurrentIndex] = useState(0);
-  const slideDuration = 2000; // 3 seconds interval
+  const slideDuration = 3000; // 3 seconds interval
 
   // Function to add section elements to refs
   const addToRefs = (el) => {
@@ -153,8 +153,9 @@ const Slider = () => {
           <div className="content">
             <h3>Backend Development</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
-              porro.
+              we specialize in backend development using powerful languages like
+              Python and Java to create robust, scalable, and secure server-side
+              solutions.
             </p>
             <Link to="/mobileappdevelopment">
               <button type="button" className="WebDomainbtn">
@@ -175,8 +176,9 @@ const Slider = () => {
           <div className="content">
             <h3>DEVOPS</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
-              porro.
+              DevOps aims to create a culture where development and operations
+              work together, resulting in faster releases, fewer errors, and
+              more resilient systems.
             </p>
             <Link to="/devops">
               <button type="button" className="WebDomainbtn">
@@ -197,8 +199,9 @@ const Slider = () => {
           <div className="content">
             <h3>TESTING SERVICES</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
-              porro.
+              Our Testing Department ensures the highest quality of software by
+              providing comprehensive testing services across web, mobile, and
+              desktop platforms.
             </p>
             <Link to="/testing">
               <button type="button" className="WebDomainbtn">

@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="footer-section">
           <h3>COMPANY</h3>
           <ul>
-            <li><a href="/technology">Technology</a></li>
+            <li><a href="/services">Services</a></li>
             <li><a href="/about">About</a></li>
           </ul>
         </div>

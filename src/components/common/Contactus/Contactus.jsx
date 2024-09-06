@@ -24,7 +24,7 @@ const Contactus = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_csb6vhg", "template_0n2g1u9", form.current, {
+      .sendForm("service_8sznlzs", "template_0n2g1u9", form.current, {
         publicKey: "PQ_Hh2A8n9qtBnKJt",
       })
       .then(
@@ -49,6 +49,12 @@ const Contactus = () => {
       .catch((error) => {
         console.error("Failed...", error);
       });
+    setFormData({
+      user_name: "",
+      user_email: "",
+      number: "",
+      message: "",
+    });
   };
   return (
     <div className="contactUs">
@@ -99,6 +105,8 @@ const Contactus = () => {
               id="message"
               onChange={handleChange}
               value={formData.message}
+              rows="4"
+              cols="15"
             ></textarea>
           </div>
           <div>

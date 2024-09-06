@@ -19,6 +19,25 @@ const Devops = () => {
         organizations innovate more effectively, reduce risk, and deliver better
         products to their customers.
       </p>
+      <h4>DevOps Services Include:</h4>
+      <ol>
+        <li>
+          <b>Automation:</b>
+          Automating repetitive tasks like testing, deployment, and monitoring.
+        </li>
+        <li>
+          <b>Continuous Integration/Continuous Deployment (CI/CD):</b>
+          Regularly integrating code changes and    deploying them quickly and safely.
+        </li>
+        <li>
+          <b>Collaboration:</b>
+          Breaking down silos between teams to improve communication and efficiency
+        </li>
+        <li>
+          <b>Monitoring and Feedback: </b>
+          Continuously monitoring applications in production and using feedback to improve processes and products.
+        </li>
+      </ol>
     </div>
   );
 };

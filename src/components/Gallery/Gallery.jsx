@@ -1,13 +1,17 @@
 // src/components/GalleryPage.jsx
 import React from "react";
 import "./Gallery.css"; // Import the CSS file for styling
-import gallery1 from '../../assests/exousiagallery/exousiagallery1.jpg'
+import gallery1 from '../../assests/exousiagallery/gallerylatest2.jpg'
 import gallery2 from '../../assests/exousiagallery/gallery3.jpg'
 import gallery3 from '../../assests/exousiagallery/gallery12.jpg'
-import gallery4 from '../../assests/exousiagallery/gallery16.jpg'
-import gallery5 from '../../assests/exousiagallery/gallery17.jpg'
+import gallery4 from '../../assests/exousiagallery/gallerylatest1.jpg'
+import gallery5 from '../../assests/exousiagallery/gallerryy.jpg'
 import gallery6 from '../../assests/exousiagallery/gallery18.jpg'
 import gallery7 from '../../assests/exousiagallery/gallery19.jpg'
+import gallery8 from '../../assests/exousiagallery/galleryyy.jpg'
+import gallery9 from '../../assests/exousiagallery/galleryy22.jpg'
+import gallery11 from '../../assests/exousiagallery/galleryy23.jpg'
+import gallery10 from '../../assests/exousiagallery/galleryyyy21.jpg'
 
 const images = [
   // Replace these URLs with your own images
@@ -18,6 +22,10 @@ const images = [
   { src: gallery5, alt: "Image 5" },
   { src: gallery6, alt: "Image 6" },
   { src: gallery7, alt: "Image 7" },
+  { src: gallery8, alt: "Image 8" },
+  { src: gallery9, alt: "Image 9" },
+  { src: gallery11, alt: "Image 11" },
+  { src: gallery10, alt: "Image 10" },
 ];
 
 const Gallery = () => {

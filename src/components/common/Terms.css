@@ -1,0 +1,88 @@
+/* Container for the terms and conditions page */
+.terms-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+  }
+  
+  /* Title of the page */
+  .terms-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #2c3e50;
+  }
+  
+  /* Section styling */
+  .terms-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Section title styling */
+  .section-title {
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  /* Subsection title styling */
+  .subsection-title {
+    color: #444;
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+  
+  /* Text within sections */
+  .section-text {
+    color: #555;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  /* List styling */
+  .terms-list {
+    margin-left: 20px;
+    list-style-type: disc;
+  }
+  
+  /* Nested list styling */
+  .nested-list {
+    margin-left: 20px;
+    list-style-type: circle;
+  }
+  
+  /* List item styling */
+  .list-item,
+  .nested-list-item {
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .terms-container {
+      padding: 10px;
+    }
+  
+    .terms-title {
+      font-size: 1.5rem;
+    }
+  
+    .section-title {
+      font-size: 1.2rem;
+    }
+  
+    .subsection-title {
+      font-size: 1rem;
+    }
+  
+    .section-text {
+      font-size: 0.95rem;
+    }
+  }
+  

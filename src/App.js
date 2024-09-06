@@ -15,6 +15,7 @@ import Testing from './components/Domain_pages/Testing'
 import Services from "./components/Services/Services";
 import Gallery from "./components/Gallery/Gallery";
 import Career from "./components/Careers/Career";
+import Terms from "./components/common/Terms";
 
 function App() {
   return (
@@ -29,12 +30,11 @@ function App() {
             <Route path="/webdevelopment" element={<Webdevelopment />} />
             <Route path="/mobileappdevelopment" element={<Mobiledevelopment />} />
             <Route path="/devops" element={<Devops />} />
-            <Route path="/python" element={<Python />} />
-            <Route path="/java" element={<Java />} />
             <Route path="/testing" element={<Testing />} />
             <Route path="/services" element={<Services />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/careers" element={<Career />} />
+            <Route path="/terms" element={<Terms />} />
           </Routes>
         </Layout>
         <ToastContainer
