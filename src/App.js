@@ -13,6 +13,7 @@ import Python from "./components/Domain_pages/Python";
 import Java from "./components/Domain_pages/Java";
 import Testing from './components/Domain_pages/Testing'
 import Services from "./components/Services/Services";
+import Career from "./components/Careers/Career";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route path="/java" element={<Java />} />
             <Route path="/testing" element={<Testing />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/careers" element={<Career />} />
           </Routes>
         </Layout>
         <ToastContainer

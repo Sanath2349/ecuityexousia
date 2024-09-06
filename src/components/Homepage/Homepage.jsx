@@ -55,6 +55,7 @@ const Homepage = () => {
         start: "top 80%",
         end: "top 30%",
         scrub: true,
+        scroll: "body",
         // markers:true
       },
       // scale:0.7
@@ -266,7 +267,6 @@ const Homepage = () => {
           </div>
         </div>
         <button type="button">Click for More</button>
-
       </div>
       <Contactus />
       <div className="linesection">

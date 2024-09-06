@@ -27,6 +27,10 @@ const Navbar = () => {
     navigate("/services"); // Navigate to the About page
   };
 
+  const handlecareers = () => {
+    navigate("/careers"); // Navigate to the careers
+  };
+
   const handleContactus = () => {
     navigate("/contactus");
 
@@ -70,7 +74,7 @@ const Navbar = () => {
         <motion.li
           transition={{ duration: 0.1 }}
           whileHover={{ scale: 1.2 }}
-          onClick={handleServices}
+          onClick={handlecareers}
         >
           Careers
         </motion.li>
