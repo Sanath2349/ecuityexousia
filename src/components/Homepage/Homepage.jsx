@@ -81,8 +81,8 @@ const Homepage = () => {
       opacity: 0,
       x: -150,
       y: 50,
-      duration: 1,
-      delay: 0.5,
+      duration: 2,
+      delay: 0.2,
       scrollTrigger: {
         trigger: ".visionimg",
         scroller: "body",

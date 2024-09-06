@@ -24,7 +24,9 @@ export default function Career() {
             Join us and be part of an innovative team shaping the future of
             technology.
           </p>
-          <button className="cta-button" onClick={handlecontact}>Explore Opportunities</button>
+
+          <a href="#openings"><button className="cta-button" >Explore Opportunities</button></a>
+          
         </div>
         <img src={jobhero} alt="Career Hero" className="hero-image" />
       </section>
@@ -56,7 +58,7 @@ export default function Career() {
         </div>
       </section>
 
-      <section className="positions-section">
+      <section id="openings" className="positions-section">
         <h2>Open Positions</h2>
         <div className="job-listings">
           <div className="job-card">

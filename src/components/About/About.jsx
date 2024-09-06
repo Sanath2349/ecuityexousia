@@ -1,31 +1,32 @@
 import React from "react";
 import "./About.css";
-import aboutusimg from "../../assests/christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg"
+import aboutusimg from "../../assests/christina-wocintechchat-com-34GZCgaVksk-unsplash.jpg";
 import ourstory from "../../assests/ourstory.png";
-import ourvision from '../../assests/ourvision.png'
-import ourtech from "../../assests/ourtech.png"
-// new 
+import ourvision from "../../assests/ourvision.png";
+import ourtech from "../../assests/ourtech.png";
+// new
 const AboutUs = () => {
   return (
     <div className="about-us">
       <h1 className="head">ABOUT US</h1>
 
-      <div>
-        <div className="herosection">
-          <img src={aboutusimg} alt="" />
-          <div className="point">
-            <p>Improving Everyday life With Software Services </p>
-            {/* <p>L</p> */}
-          </div>
+      
+      <div className="herosection">
+        <img src={aboutusimg} alt="" />
+        <div className="point">
+          <p>Improving Everyday life With Software Services </p>
+         
         </div>
       </div>
-
+      
       <section className="our-story">
         <div className="line"></div>
 
         <h2>Our Story</h2>
 
-        <h1 className="storyline">"Empowering the Future: Our Journey of Innovation and Excellence"</h1>
+        <h1 className="storyline">
+          "Empowering the Future: Our Journey of Innovation and Excellence"
+        </h1>
         <div className="story">
           <img src={ourstory} alt="" />
 
@@ -42,7 +43,9 @@ const AboutUs = () => {
       <section className="our-vision">
         <div className="line"></div>
         <h2>Our Vision</h2>
-        <h1 className="storyline">"Shaping Tomorrow: Our Vision for a Brighter, Connected Future"</h1>
+        <h1 className="storyline">
+          "Shaping Tomorrow: Our Vision for a Brighter, Connected Future"
+        </h1>
         <div className="vision">
           <img src={ourvision} alt="" />
           <p>
@@ -57,7 +60,9 @@ const AboutUs = () => {
       <section className="our-technology">
         <div className="line"></div>
         <h2>Our Technology</h2>
-        <h1 className="storyline">"Cutting-Edge Solutions: The Technology Powering Our Success"</h1>
+        <h1 className="storyline">
+          "Cutting-Edge Solutions: The Technology Powering Our Success"
+        </h1>
         <div className="story">
           <img src={ourtech} alt="" />
           <p>
