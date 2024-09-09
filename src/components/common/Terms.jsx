@@ -9,7 +9,7 @@ const Terms = () => {
       <section className="terms-section">
         <h2 className="section-title">ASSESSMENT POLICY</h2>
         <p className="section-text">
-          All the employee’s have assessment in training for monitor the trainee
+          All the employee's have assessment in training for monitor the trainee
           skills. If the employee get below 85% score in the assessment The
           company will give one more chance to prove themselves. Why because
           when the company Handover the revenue generating project to the

@@ -32,7 +32,7 @@ const Homepage = () => {
     gsap.from(".homeHeroHeading h1", {
       // y:80,
       duration: 1,
-      delay: 0.5,
+      // delay: 0.5,
       opacity: 0,
       scale: 0.7,
       scrollTrigger: {
@@ -43,7 +43,7 @@ const Homepage = () => {
     gsap.from(".homeheroDescription", {
       y: 80,
       duration: 1,
-      delay: 0.5,
+      // delay: 0.5,
       opacity: 0,
       scrollTrigger: {
         trigger: ".homeheroDescription",
@@ -54,7 +54,7 @@ const Homepage = () => {
     gsap.from(".linesection", {
       width: 0,
       duration: 1,
-      delay: 1,
+      // delay: 1,
       opacity: 0,
       scrollTrigger: {
         trigger: ".linesection",
@@ -73,7 +73,7 @@ const Homepage = () => {
       x: -50,
       y: 50,
       duration: 1,
-      delay: 0.2,
+      // delay: 0.2,
       scrollTrigger: {
         trigger: ".visionDescription",
         scroller: "body",
@@ -87,8 +87,8 @@ const Homepage = () => {
       opacity: 0,
       x: -150,
       y: 50,
-      duration: 2,
-      delay: 0.2,
+      duration: 1,
+      // delay: 0.2,
       duration: 1,
       scrollTrigger: {
         trigger: ".visionimg",
@@ -150,9 +150,9 @@ const Homepage = () => {
           leverages their extensive experience to provide fast and reliable
           real-time data solutions that offer a competitive edge to our clients.
         </div>
-        <div className="heroimg">
+        {/* <div className="heroimg">
           <img src={heroimg} alt="herobg" />
-        </div>
+        </div> */}
       </div>
       <div className="linesection">
         <div className="line"></div>

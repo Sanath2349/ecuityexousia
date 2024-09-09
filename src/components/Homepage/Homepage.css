@@ -79,6 +79,7 @@ body {
 .homeHeroHeading {
   font-size: 2rem;
   margin-bottom: 1rem;
+  padding-top: 70px;
   /* animation: fadeIn 2s ease-out; */
 }
 
