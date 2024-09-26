@@ -34,10 +34,10 @@ export default function Footer() {
         <div className="footer-section">
           <h3>SOCIAL</h3>
           <ul>
-            <li><a href="https://www.linkedin.com/company/volaso" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-            <li><a href="https://www.facebook.com/volaso" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            <li><a href="https://www.instagram.com/volaso" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-            <li><a href="https://www.twitter.com/volaso" target="_blank" rel="noopener noreferrer">X</a></li>
+            <li><a href="https://www.linkedin.com/in/ecuity-exousia-it-and-ites-private-limited-61740a327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            {/* <li><a href="https://www.facebook.com/volaso" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://www.instagram.com/volaso" target="_blank" rel="noopener noreferrer">Instagram</a></li> */}
+            <li><a href="https://x.com/EcuityExousia" target="_blank" rel="noopener noreferrer">X</a></li>
           </ul>
         </div>
         
