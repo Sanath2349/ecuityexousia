@@ -12,7 +12,7 @@ A static landing page for a Hyderabad-based client, built with React and Materia
 ## How to Run
 1. Clone: `git clone https://github.com/Sanath2349/ecuityexousia.git`
 2. Install: `npm install`
-3. Start: `npm run dev`
+3. Start: `npm start`
 
 ## Contact
-Sanath Geedipally | sanathreddyp42@gmail.com
+Sanath Geedipally | sanathreddyg42@gmail.com
